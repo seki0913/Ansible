@@ -1,0 +1,11 @@
+ - name: Add a User
+   hosts: windows
+   gather_facts: false
+   tasks:
+    - name: Add User
+      win_user:
+        name: ansible
+        password: User
+        groups: ["Users"]
+
+  

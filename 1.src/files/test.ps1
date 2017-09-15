@@ -1,0 +1,1 @@
+Get-Process > c:\result.txt

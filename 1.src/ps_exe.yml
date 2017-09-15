@@ -1,0 +1,6 @@
+- name: PowerShell Execution
+  hosts: windows
+  gather_facts: false
+  tasks:
+  - name: test-nano!
+    script: files/test.ps1

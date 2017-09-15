@@ -1,0 +1,1 @@
+New-VM -Name "new1" -MemoryStartupBytes 512MB
