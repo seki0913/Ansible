@@ -1,0 +1,6 @@
+- name: linux User Add
+  hosts: linux
+  become: yes
+  become_user: root
+  tasks:
+    - user: name=nanoha
