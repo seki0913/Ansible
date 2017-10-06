@@ -1,0 +1,9 @@
+- name: yum_update all package
+  hosts: linux
+  become: yes
+  become_user: root
+  tasks:
+    - name: yum update
+      yum:
+        name: '*'
+        state: latest
